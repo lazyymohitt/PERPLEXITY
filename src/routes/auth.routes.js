@@ -5,7 +5,7 @@ import { register } from "../controllers/auth.controller.js";
 const authRouter = Router();
 
 /**
- * @route POST /api.auth/register
+ * @route POST /api/auth/register
  * @desc register a new user
  * @access public
  *  @body{username,email,password}

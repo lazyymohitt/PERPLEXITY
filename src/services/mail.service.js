@@ -19,7 +19,7 @@ transporter.verify()
 .then(()=>{
     console.log("Email Transporter is ready to send emails")
 
-})
+})   
 .catch((err)=>{
     console.error("Email Transporter Verification Failed",err);
     
